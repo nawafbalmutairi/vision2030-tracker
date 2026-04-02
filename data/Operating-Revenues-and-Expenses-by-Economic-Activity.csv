@@ -1,0 +1,205 @@
+"Year","Economic Activity Section","Flow","Value"
+2019,"Mining and quarrying","Expenses",65738261888.93354
+2020,"Mining and quarrying","Expenses",55736894364.73954
+2021,"Mining and quarrying","Expenses",65932153166.72886
+2022,"Mining and quarrying","Expenses",108736331802.56226
+2023,"Mining and quarrying","Expenses",102304412655.99005
+2024,"Mining and quarrying","Expenses",126336000141.7794
+2019,"Mining and quarrying","Revenues",891143229656.2446
+2020,"Mining and quarrying","Revenues",572942145599.5717
+2021,"Mining and quarrying","Revenues",909048485263.0472
+2022,"Mining and quarrying","Revenues",1481181508208.2585
+2023,"Mining and quarrying","Revenues",1152759566624.1047
+2024,"Mining and quarrying","Revenues",1057520837694.6383
+2019,"Manufacturing","Expenses",600453111520.5583
+2020,"Manufacturing","Expenses",512990282754.0096
+2021,"Manufacturing","Expenses",622775622576.3638
+2022,"Manufacturing","Expenses",819095837912.4706
+2023,"Manufacturing","Expenses",898686679034.8241
+2024,"Manufacturing","Expenses",983917489156.1117
+2019,"Manufacturing","Revenues",990911757876.2449
+2020,"Manufacturing","Revenues",871760698667.6055
+2021,"Manufacturing","Revenues",1103730023020.818
+2022,"Manufacturing","Revenues",1416836353021.204
+2023,"Manufacturing","Revenues",1587201355124.4246
+2024,"Manufacturing","Revenues",1702927089177.4868
+2019,"Electricity, gas, steam and air conditioning supply","Expenses",42197186744.950676
+2020,"Electricity, gas, steam and air conditioning supply","Expenses",44108310698.02856
+2021,"Electricity, gas, steam and air conditioning supply","Expenses",48702327854.266754
+2022,"Electricity, gas, steam and air conditioning supply","Expenses",49753571343.133804
+2023,"Electricity, gas, steam and air conditioning supply","Expenses",37684490876.22267
+2024,"Electricity, gas, steam and air conditioning supply","Expenses",46884819206.58132
+2019,"Electricity, gas, steam and air conditioning supply","Revenues",80151573687.41731
+2020,"Electricity, gas, steam and air conditioning supply","Revenues",80334799334.84793
+2021,"Electricity, gas, steam and air conditioning supply","Revenues",87355507888.55074
+2022,"Electricity, gas, steam and air conditioning supply","Revenues",89904834383.54024
+2023,"Electricity, gas, steam and air conditioning supply","Revenues",92842707429.16864
+2024,"Electricity, gas, steam and air conditioning supply","Revenues",107586482367.4402
+2019,"Water supply sewerage, waste management and remediation activities","Expenses",5179823541.630313
+2020,"Water supply sewerage, waste management and remediation activities","Expenses",5308264326.717599
+2021,"Water supply sewerage, waste management and remediation activities","Expenses",5636124887.342104
+2022,"Water supply sewerage, waste management and remediation activities","Expenses",5723126355.997622
+2023,"Water supply sewerage, waste management and remediation activities","Expenses",17642455399.915607
+2024,"Water supply sewerage, waste management and remediation activities","Expenses",18694865341.955463
+2019,"Water supply sewerage, waste management and remediation activities","Revenues",14670068980.235949
+2020,"Water supply sewerage, waste management and remediation activities","Revenues",13787503278.579239
+2021,"Water supply sewerage, waste management and remediation activities","Revenues",15152029400.047195
+2022,"Water supply sewerage, waste management and remediation activities","Revenues",15839055371.12429
+2023,"Water supply sewerage, waste management and remediation activities","Revenues",30934837517.513046
+2024,"Water supply sewerage, waste management and remediation activities","Revenues",32619109795.701817
+2019,"Construction","Expenses",138358187164.9661
+2020,"Construction","Expenses",117530139064.83806
+2021,"Construction","Expenses",145506244398.0475
+2022,"Construction","Expenses",151225741080.5238
+2023,"Construction","Expenses",165256180385.26474
+2024,"Construction","Expenses",182978036454.8439
+2019,"Construction","Revenues",312909510363.02637
+2020,"Construction","Revenues",306630045633.3819
+2021,"Construction","Revenues",330227820832.4718
+2022,"Construction","Revenues",343426649275.8218
+2023,"Construction","Revenues",429339195681.25037
+2024,"Construction","Revenues",470614626373.7208
+2019,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Expenses",429617970641.6204
+2020,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Expenses",370076849289.77045
+2021,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Expenses",457247086345.4501
+2022,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Expenses",468891924472.81494
+2023,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Expenses",482685641802.78375
+2024,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Expenses",522117865880.6726
+2019,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Revenues",689062235833.9701
+2020,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Revenues",585011142501.8585
+2021,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Revenues",719631493400.7523
+2022,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Revenues",757182591659.4749
+2023,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Revenues",846822657398.0685
+2024,"Wholesale and retail trade; repair of motor vehicles and motorcycles","Revenues",919040264652.936
+2019,"Transportation and storage","Expenses",70399437432.65257
+2020,"Transportation and storage","Expenses",57141545170.42953
+2021,"Transportation and storage","Expenses",65346296996.375916
+2022,"Transportation and storage","Expenses",66582470276.60092
+2023,"Transportation and storage","Expenses",72635185924.5585
+2024,"Transportation and storage","Expenses",76548071014.38014
+2019,"Transportation and storage","Revenues",153751390018.1139
+2020,"Transportation and storage","Revenues",119158461933.40013
+2021,"Transportation and storage","Revenues",137223889844.97383
+2022,"Transportation and storage","Revenues",142245565585.0717
+2023,"Transportation and storage","Revenues",170030760120.97574
+2024,"Transportation and storage","Revenues",178195852760.45258
+2019,"Accommodation and food service activities","Expenses",62876290842.63725
+2020,"Accommodation and food service activities","Expenses",43582207191.09318
+2021,"Accommodation and food service activities","Expenses",64807532987.98402
+2022,"Accommodation and food service activities","Expenses",66623636282.25675
+2023,"Accommodation and food service activities","Expenses",68415339114.380615
+2024,"Accommodation and food service activities","Expenses",73011400232.85503
+2019,"Accommodation and food service activities","Revenues",116063721498.48376
+2020,"Accommodation and food service activities","Revenues",80371212384.83842
+2021,"Accommodation and food service activities","Revenues",121437878984.7677
+2022,"Accommodation and food service activities","Revenues",126677636740.22932
+2023,"Accommodation and food service activities","Revenues",159520236120.87823
+2024,"Accommodation and food service activities","Revenues",168310381671.87393
+2019,"Information and communication","Expenses",75957057186.93951
+2020,"Information and communication","Expenses",80177890297.18626
+2021,"Information and communication","Expenses",85241245845.49242
+2022,"Information and communication","Expenses",87039534228.63626
+2023,"Information and communication","Expenses",109556295494.75092
+2024,"Information and communication","Expenses",116307352775.97871
+2019,"Information and communication","Revenues",177136041396.2566
+2020,"Information and communication","Revenues",178628316673.74713
+2021,"Information and communication","Revenues",181714249798.76697
+2022,"Information and communication","Revenues",188494887761.53506
+2023,"Information and communication","Revenues",226702683341.36838
+2024,"Information and communication","Revenues",239400369257.5601
+2019,"Financial and insurance activities","Expenses",59091193133.44912
+2020,"Financial and insurance activities","Expenses",63857235000
+2021,"Financial and insurance activities","Expenses",64766498500
+2022,"Financial and insurance activities","Expenses",70841013701.52016
+2023,"Financial and insurance activities","Expenses",76767953000.00002
+2024,"Financial and insurance activities","Expenses",77774164000
+2019,"Financial and insurance activities","Revenues",197333145025.43048
+2020,"Financial and insurance activities","Revenues",209117098100
+2021,"Financial and insurance activities","Revenues",214412637684.501
+2022,"Financial and insurance activities","Revenues",228903806895.88623
+2023,"Financial and insurance activities","Revenues",246745431000
+2024,"Financial and insurance activities","Revenues",250475732000
+2019,"Real estate activities","Expenses",9438262069.541277
+2020,"Real estate activities","Expenses",8396293740.780715
+2021,"Real estate activities","Expenses",11087486782.822388
+2022,"Real estate activities","Expenses",11824715147.941238
+2023,"Real estate activities","Expenses",16588606710.747765
+2024,"Real estate activities","Expenses",18532427000
+2019,"Real estate activities","Revenues",23272586341.471382
+2020,"Real estate activities","Revenues",22977414717.67543
+2021,"Real estate activities","Revenues",24695780313.197716
+2022,"Real estate activities","Revenues",27289559721.379578
+2023,"Real estate activities","Revenues",37979574377.341
+2024,"Real estate activities","Revenues",41704842000
+2019,"Professional, scientific and technical activities","Expenses",17776185220.399242
+2020,"Professional, scientific and technical activities","Expenses",15032043718.443571
+2021,"Professional, scientific and technical activities","Expenses",19749299880.388523
+2022,"Professional, scientific and technical activities","Expenses",20922329991.14816
+2023,"Professional, scientific and technical activities","Expenses",20811516332.757347
+2024,"Professional, scientific and technical activities","Expenses",23251981259.72152
+2019,"Professional, scientific and technical activities","Revenues",39053534537.239494
+2020,"Professional, scientific and technical activities","Revenues",32915508787.48002
+2021,"Professional, scientific and technical activities","Revenues",40291975811.22563
+2022,"Professional, scientific and technical activities","Revenues",44763681694.72417
+2023,"Professional, scientific and technical activities","Revenues",54205806235.648384
+2024,"Professional, scientific and technical activities","Revenues",60619444347.41467
+2019,"Administrative and support service activities","Expenses",25809245143.93556
+2020,"Administrative and support service activities","Expenses",19597984201.146923
+2021,"Administrative and support service activities","Expenses",28398535070.23506
+2022,"Administrative and support service activities","Expenses",30014543522.17749
+2023,"Administrative and support service activities","Expenses",29247295861.82344
+2024,"Administrative and support service activities","Expenses",31273604079.61378
+2019,"Administrative and support service activities","Revenues",60622922665.785194
+2020,"Administrative and support service activities","Revenues",46509252874.644905
+2021,"Administrative and support service activities","Revenues",62105679111.12839
+2022,"Administrative and support service activities","Revenues",67779117862.2518
+2023,"Administrative and support service activities","Revenues",86447612877.26843
+2024,"Administrative and support service activities","Revenues",92094312856.10721
+2019,"Education","Expenses",9716974305.117207
+2020,"Education","Expenses",8390824012.3719425
+2021,"Education","Expenses",10286414454.283655
+2022,"Education","Expenses",10573201349.910973
+2023,"Education","Expenses",11293147696.958113
+2024,"Education","Expenses",11684054658.278708
+2019,"Education","Revenues",22792552949.83841
+2020,"Education","Revenues",20949241472.06456
+2021,"Education","Revenues",23276386450.635174
+2022,"Education","Revenues",23783938311.10157
+2023,"Education","Revenues",29428376932.447353
+2024,"Education","Revenues",30782179710.143135
+2019,"Human health and social work","Expenses",28813079013.573677
+2020,"Human health and social work","Expenses",29545632088.024868
+2021,"Human health and social work","Expenses",32137701326.473835
+2022,"Human health and social work","Expenses",32646376041.159897
+2023,"Human health and social work","Expenses",37456062555.36942
+2024,"Human health and social work","Expenses",38356989743.21665
+2019,"Human health and social work","Revenues",68757849454.44911
+2020,"Human health and social work","Revenues",71257738823.50146
+2021,"Human health and social work","Revenues",74031187545.60905
+2022,"Human health and social work","Revenues",76564671806.47627
+2023,"Human health and social work","Revenues",94716108986.75838
+2024,"Human health and social work","Revenues",97872246992.69604
+2019,"Arts, entertainment and recreation","Expenses",3023791152.1180596
+2020,"Arts, entertainment and recreation","Expenses",2546341093.630374
+2021,"Arts, entertainment and recreation","Expenses",3201306939.1553392
+2022,"Arts, entertainment and recreation","Expenses",3257373818.226251
+2023,"Arts, entertainment and recreation","Expenses",4257826186.383221
+2024,"Arts, entertainment and recreation","Expenses",4611372478.017275
+2019,"Arts, entertainment and recreation","Revenues",7835069622.331873
+2020,"Arts, entertainment and recreation","Revenues",6402257837.870408
+2021,"Arts, entertainment and recreation","Revenues",8571147287.63194
+2022,"Arts, entertainment and recreation","Revenues",8943010918.00444
+2023,"Arts, entertainment and recreation","Revenues",12267864168.830832
+2024,"Arts, entertainment and recreation","Revenues",13799495072.858387
+2019,"Other service activities","Expenses",13744220933.1933
+2020,"Other service activities","Expenses",9305726369.536121
+2021,"Other service activities","Expenses",13443372197.68072
+2022,"Other service activities","Expenses",14119665116.70262
+2023,"Other service activities","Expenses",14592940530.588827
+2024,"Other service activities","Expenses",15531920628.97037
+2019,"Other service activities","Revenues",30478784676.430504
+2020,"Other service activities","Revenues",20078260707.968987
+2021,"Other service activities","Revenues",28270034971.563183
+2022,"Other service activities","Revenues",30348007354.83776
+2023,"Other service activities","Revenues",34092293532.30442
+2024,"Other service activities","Revenues",36846282793.891106
