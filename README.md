@@ -2,7 +2,7 @@
 
 An interactive dashboard tracking Saudi Arabia's Vision 2030 transformation across 11 key performance indicators, built with real data from official government sources.
 
-**[→ View Live Dashboard](https://yourusername.github.io/vision2030-tracker)**
+**[→ View Live Dashboard](https://nawafbalmutairi.github.io/vision2030-tracker/)**
 
 ---
 
