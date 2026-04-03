@@ -127,7 +127,7 @@ Or simply download `index.html` and open it in any browser.
 **Nawaf Badr Almutairi**
 BSc Computer Science — Northumbria University
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/yourprofile)
+[![LinkedIn](https://www.linkedin.com/in/nawafbalmutairi/)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=flat&logo=github)](https://github.com/yourusername)
 
 ---
