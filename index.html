@@ -24,8 +24,6 @@ html{font-size:14px}
 body{background:var(--bg);color:var(--t1);font-family:var(--bd);-webkit-font-smoothing:antialiased;line-height:1.6}
 ::selection{background:var(--g);color:var(--bg)}
 .wrap{max-width:1220px;margin:0 auto;padding:0 32px}
-
-/* ═══ HEADER ═══ */
 .hdr{border-bottom:1px solid var(--border);padding:44px 0 36px}
 .hdr-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
 .hdr-badge{font-family:var(--mn);font-size:11px;color:var(--t2);letter-spacing:0.5px}
@@ -39,8 +37,6 @@ body{background:var(--bg);color:var(--t1);font-family:var(--bd);-webkit-font-smo
 .meta{display:flex;flex-direction:column;gap:1px}
 .meta-l{font-family:var(--mn);font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:1.2px}
 .meta-v{font-size:13px;font-weight:600;color:var(--t1)}
-
-/* ═══ SLICER BAR — Power BI pill slicers ═══ */
 .slicers{padding:20px 0;border-bottom:1px solid var(--border);display:flex;gap:20px;align-items:center;flex-wrap:wrap}
 .slicer{display:flex;align-items:center;gap:8px}
 .slicer-label{font-family:var(--mn);font-size:10px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;white-space:nowrap}
@@ -52,18 +48,10 @@ body{background:var(--bg);color:var(--t1);font-family:var(--bd);-webkit-font-smo
 .slicer-search{padding:6px 12px;border:1px solid var(--border);border-radius:6px;background:var(--card);color:var(--t1);font-family:var(--bd);font-size:12px;outline:none;width:180px;transition:border-color 0.2s}
 .slicer-search::placeholder{color:var(--t3)}
 .slicer-search:focus{border-color:var(--g);box-shadow:0 0 0 3px var(--g-glow)}
-
-/* ═══ SECTION LABEL ═══ */
 .sec{font-family:var(--mn);font-size:11px;color:var(--t3);letter-spacing:0.5px;margin-bottom:14px;padding-top:28px}
 .sec::before{content:'— ';color:var(--g);font-weight:700}
-
-/* ═══ KPI EXEC CARDS — with sparklines & trends ═══ */
 .cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
-.xcard{
-  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
-  padding:20px;position:relative;overflow:hidden;
-  transition:all 0.25s cubic-bezier(0.16,1,0.3,1);cursor:default;
-}
+.xcard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;position:relative;overflow:hidden;transition:all 0.25s cubic-bezier(0.16,1,0.3,1);cursor:default}
 .xcard::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--g);opacity:0;transition:opacity 0.2s}
 .xcard:hover{border-color:var(--border2);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.25)}
 .xcard:hover::before{opacity:1}
@@ -75,23 +63,13 @@ body{background:var(--bg);color:var(--t1);font-family:var(--bd);-webkit-font-smo
 .xcard-val{font-family:var(--mn);font-weight:500;font-size:26px;letter-spacing:-0.5px;line-height:1;margin-bottom:4px}
 .xcard-val.g{color:var(--g)}.xcard-val.a{color:var(--a)}.xcard-val.r{color:var(--r)}.xcard-val.b{color:var(--b)}.xcard-val.c{color:var(--c)}
 .xcard-sub{font-size:12px;color:var(--t2)}
-/* Mini sparkline canvas */
-.xcard-spark{margin-top:10px;height:28px;width:100%;opacity:0.5}
-
-/* ═══ TABLE — Power BI matrix ═══ */
 .tbl-wrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:border-color 0.2s}
 .tbl-wrap:hover{border-color:var(--border2)}
 .tbl-hdr{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--border)}
 .tbl-title{font-family:var(--bd);font-weight:700;font-size:14px;color:var(--t0)}
 .tbl-count{font-family:var(--mn);font-size:11px;color:var(--t3);background:var(--raised);padding:3px 10px;border-radius:20px}
 table{width:100%;border-collapse:collapse}
-thead th{
-  padding:10px 16px;font-family:var(--mn);font-size:10px;font-weight:500;
-  letter-spacing:1px;text-transform:uppercase;color:var(--t3);
-  text-align:left;border-bottom:1px solid var(--border);
-  background:var(--card);position:sticky;top:0;z-index:2;
-  cursor:pointer;transition:color 0.15s;user-select:none;
-}
+thead th{padding:10px 16px;font-family:var(--mn);font-size:10px;font-weight:500;letter-spacing:1px;text-transform:uppercase;color:var(--t3);text-align:left;border-bottom:1px solid var(--border);background:var(--card);position:sticky;top:0;z-index:2;cursor:pointer;transition:color 0.15s;user-select:none}
 thead th:hover{color:var(--t1)}
 thead th .sort-arrow{display:inline-block;margin-left:4px;font-size:9px;opacity:0.3;transition:opacity 0.2s}
 thead th.sorted .sort-arrow{opacity:1;color:var(--g)}
@@ -106,49 +84,23 @@ tbody td.r{text-align:right}tbody td.c{text-align:center}
 .ptag{display:inline-block;font-family:var(--mn);font-size:9px;color:var(--t3);background:var(--raised);padding:2px 8px;border-radius:4px;margin-left:8px;vertical-align:middle}
 .v{font-family:var(--mn);font-weight:500;color:var(--t2);font-size:13px}
 .v.act{font-weight:700;color:var(--g)}.v.act.bh{color:var(--r)}.v.tgt{color:var(--t3)}
-/* Delta column */
 .delta{font-family:var(--mn);font-size:11px;font-weight:500;display:inline-flex;align-items:center;gap:3px}
 .delta.up{color:var(--g)}.delta.dn{color:var(--r)}.delta.flat{color:var(--t3)}
-
-/* ═══ PROGRESS BAR — premium gradient fill ═══ */
 .pbar{display:flex;align-items:center;gap:10px}
-.pbar-track{
-  flex:1;height:8px;background:var(--raised);border-radius:4px;
-  overflow:hidden;position:relative;min-width:70px;
-}
-.pbar-fill{
-  height:100%;border-radius:4px;position:relative;
-  transition:width 1.2s cubic-bezier(0.16,1,0.3,1);
-  background:linear-gradient(90deg,var(--g),var(--g2));
-  box-shadow:0 0 8px var(--g-glow);
-}
+.pbar-track{flex:1;height:8px;background:var(--raised);border-radius:4px;overflow:hidden;position:relative;min-width:70px}
+.pbar-fill{height:100%;border-radius:4px;position:relative;transition:width 1.2s cubic-bezier(0.16,1,0.3,1);background:linear-gradient(90deg,var(--g),var(--g2));box-shadow:0 0 8px var(--g-glow)}
 .pbar-fill.amber{background:linear-gradient(90deg,var(--a),var(--a2));box-shadow:0 0 8px rgba(210,153,34,0.2)}
 .pbar-fill.red{background:linear-gradient(90deg,var(--r),var(--r2));box-shadow:0 0 8px rgba(248,81,73,0.2)}
-/* Shimmer effect */
-.pbar-fill::after{
-  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.12),transparent);
-  animation:shimmer 2s infinite;
-}
+.pbar-fill::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.12),transparent);animation:shimmer 2s infinite}
 @keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
 .pbar-pct{font-family:var(--mn);font-size:12px;font-weight:600;color:var(--t1);min-width:36px;text-align:right}
-
-/* ═══ STATUS BADGE — premium ═══ */
-.st{
-  display:inline-flex;align-items:center;gap:6px;
-  font-family:var(--mn);font-size:10px;font-weight:500;
-  letter-spacing:0.3px;text-transform:uppercase;
-  padding:5px 12px;border-radius:20px;
-  transition:transform 0.15s;
-}
+.st{display:inline-flex;align-items:center;gap:6px;font-family:var(--mn);font-size:10px;font-weight:500;letter-spacing:0.3px;text-transform:uppercase;padding:5px 12px;border-radius:20px;transition:transform 0.15s}
 .st:hover{transform:scale(1.04)}
 .st-dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0}
 .st.exceeded{background:var(--g-bg);color:var(--g);border:1px solid var(--g-br)}
 .st.exceeded .st-dot{box-shadow:0 0 6px var(--g-glow)}
 .st.on-track{background:var(--a-bg);color:var(--a);border:1px solid var(--a-br)}
 .st.behind{background:var(--r-bg);color:var(--r);border:1px solid var(--r-br)}
-
-/* ═══ CHARTS ═══ */
 .chgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .chcard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:border-color 0.2s}
 .chcard:hover{border-color:var(--border2)}
@@ -160,8 +112,6 @@ tbody td.r{text-align:right}tbody td.c{text-align:center}
 .cht:hover{color:var(--t1)}.cht.on{background:var(--g);color:var(--bg);font-weight:500}
 .chcard-body{padding:16px 20px 20px}
 .chart-area{position:relative;height:250px}
-
-/* ═══ INSIGHTS ═══ */
 .igrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .icard{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--g);border-radius:var(--radius);padding:20px;transition:all 0.2s}
 .icard:hover{transform:translateY(-2px);border-color:var(--border2)}
@@ -170,13 +120,9 @@ tbody td.r{text-align:right}tbody td.c{text-align:center}
 .icard:nth-child(1) .icard-val{color:var(--g)}.icard:nth-child(2) .icard-val{color:var(--b)}.icard:nth-child(3) .icard-val{color:var(--a)}
 .icard-title{font-weight:600;font-size:13px;color:var(--t0);margin-bottom:6px}
 .icard-desc{font-size:12px;color:var(--t2);line-height:1.7}
-
-/* ═══ FOOTER ═══ */
 .ft{border-top:1px solid var(--border);padding:24px 0;margin-top:36px;display:flex;justify-content:space-between;align-items:center}
 .ft-l{font-family:var(--mn);font-size:11px;color:var(--t3)}
 .ft-r{display:flex;gap:16px}.ft-r a{font-family:var(--mn);font-size:11px;color:var(--t3);text-decoration:none;transition:color 0.2s}.ft-r a:hover{color:var(--g)}
-
-/* ═══ RESPONSIVE ═══ */
 @media(max-width:1100px){.cards{grid-template-columns:repeat(3,1fr)}.cards .xcard:nth-child(n+4){display:none}}
 @media(max-width:900px){.chgrid,.igrid{grid-template-columns:1fr}.slicers{flex-direction:column;align-items:flex-start;gap:10px}thead th:nth-child(5),tbody td:nth-child(5){display:none}}
 @media(max-width:600px){.wrap{padding:0 16px}.cards{grid-template-columns:1fr 1fr}.hdr-meta{flex-wrap:wrap;gap:16px}.ft{flex-direction:column;gap:10px;text-align:center}thead th:nth-child(4),tbody td:nth-child(4),thead th:nth-child(5),tbody td:nth-child(5){display:none}}
@@ -195,8 +141,6 @@ tbody td.r{text-align:right}tbody td.c{text-align:center}
     <div class="meta"><span class="meta-l">Achievement</span><span class="meta-v" style="color:var(--g)">93% on target</span></div>
   </div>
 </div></header>
-
-<!-- SLICERS -->
 <div class="wrap">
 <div class="slicers">
   <div class="slicer"><span class="slicer-label">Pillar</span>
@@ -219,12 +163,8 @@ tbody td.r{text-align:right}tbody td.c{text-align:center}
     <input class="slicer-search" id="sq" placeholder="Filter indicators..." oninput="apply()">
   </div>
 </div>
-
-<!-- KPI CARDS -->
 <div class="sec">Key Performance Indicators</div>
 <div class="cards" id="xcards"></div>
-
-<!-- TABLE -->
 <div class="sec">Scorecard — Baseline vs Actual vs Target</div>
 <div class="tbl-wrap">
   <div class="tbl-hdr"><span class="tbl-title">KPI Matrix</span><span class="tbl-count" id="rowCount">11 indicators</span></div>
@@ -237,31 +177,23 @@ tbody td.r{text-align:right}tbody td.c{text-align:center}
     <th class="c" onclick="sortBy('status',this)">Status <span class="sort-arrow">↕</span></th>
   </tr></thead><tbody id="tb"></tbody></table></div>
 </div>
-
-<!-- CHARTS -->
 <div class="sec">Trend Analysis</div>
 <div class="chgrid">
   <div class="chcard"><div class="chcard-hdr"><div><div class="chcard-t" id="cLt">Unemployment Rate (%)</div><div class="chcard-s" id="cLs">Quarterly · GASTAT · Target: 7.0%</div></div><div class="chtabs" id="tL"><button class="cht on" onclick="sL('unemployment',this)">Unemployment</button><button class="cht" onclick="sL('workforce',this)">Workforce</button><button class="cht" onclick="sL('gdp',this)">GDP</button></div></div><div class="chcard-body"><div class="chart-area"><canvas id="cL"></canvas></div></div></div>
   <div class="chcard"><div class="chcard-hdr"><div><div class="chcard-t" id="cRt">PIF Assets ($B)</div><div class="chcard-s" id="cRs">PIF Annual Reports · 2030 target: $2.67T</div></div><div class="chtabs" id="tR"><button class="cht on" onclick="sR('pif',this)">PIF Assets</button><button class="cht" onclick="sR('tourism',this)">Tourism</button><button class="cht" onclick="sR('revenue',this)">Revenue</button></div></div><div class="chcard-body"><div class="chart-area"><canvas id="cR"></canvas></div></div></div>
 </div>
-
-<!-- INSIGHTS -->
 <div class="sec">Key Insights</div>
 <div class="igrid">
   <div class="icard"><div class="icard-val">6 yrs early</div><div class="icard-title">Unemployment Target Achieved</div><div class="icard-desc">Dropped from 12.3% to 7.0% — 437,000 Saudis joined the private sector in 2024 alone.</div></div>
   <div class="icard"><div class="icard-val">17% → 33.5%</div><div class="icard-title">Women Reshaping the Workforce</div><div class="icard-desc">Participation nearly doubled, surpassing the 30% target. 43.8% of management roles now held by women.</div></div>
   <div class="icard"><div class="icard-val">25.2% vs 50%</div><div class="icard-title">Non-Oil Exports Lagging</div><div class="icard-desc">The biggest gap in Vision 2030's economic pillar — well short of the 50% non-oil GDP share target.</div></div>
 </div>
-
-<!-- FOOTER -->
 <div class="ft">
   <div class="ft-l">Built by Nawaf Almutairi · Data sourced from official Saudi government publications</div>
   <div class="ft-r"><a href="https://nawafbalmutairi.github.io">Portfolio</a><a href="https://github.com/nawafbalmutairi">GitHub</a><a href="https://linkedin.com/in/nawaf-almutairi-907766290">LinkedIn</a></div>
 </div>
 </div>
-
 <script>
-/* ═══════════════ DATA ═══════════════ */
 var D=[
   {n:"Unemployment Rate",p:"Economy",u:"%",b:12.3,a:7.0,t:7.0,d:"l",s:"Exceeded",spark:[12.3,12.8,12.9,12.3,15.4,11.3,10.1,8.3,7.6,7.0]},
   {n:"Female Workforce Participation",p:"Economy",u:"%",b:17.0,a:33.5,t:30.0,d:"h",s:"Exceeded",spark:[17.0,20.2,19.6,21.2,25.4,30.6,31.3,33.8,35.8,33.5]},
@@ -273,9 +205,8 @@ var D=[
   {n:"Volunteers",p:"Society",u:"M",b:0.023,a:1.2,t:1.0,d:"h",s:"Exceeded",spark:[0.023,0.05,0.1,0.2,0.3,0.5,0.7,0.8,1.2]},
   {n:"E-Government Rank",p:"Governance",u:"#",b:36,a:6,t:5,d:"l",s:"Exceeded",spark:[36,32,28,24,20,16,12,8,6]},
   {n:"E-Participation Rank",p:"Governance",u:"#",b:39,a:7,t:10,d:"l",s:"Exceeded",spark:[39,35,30,25,20,15,12,9,7]},
-  {n:"Environmental Performance",p:"Governance",u:"CCPI",b:67,a:67,t:null,d:"l",s:"Behind",spark:[67,67,67,67,67,67,67,67,67]}
+  {n:"Environmental Performance (EPI)",p:"Governance",u:"EPI",b:95,a:108,t:70,d:"l",s:"Behind",spark:[95,95,98,100,103,105,106,108,108]}
 ];
-
 var CD={
   unemployment:{t:"Unemployment Rate — Saudi Nationals (%)",s:"Quarterly · GASTAT via datasaudi.sa · Target: 7.0%",lb:["Q2'16","Q4'16","Q2'17","Q4'17","Q2'18","Q4'18","Q2'19","Q4'19","Q2'20","Q4'20","Q2'21","Q4'21","Q2'22","Q4'22","Q2'23","Q4'23","Q2'24","Q4'24","Q3'25"],ds:[{label:"Total",data:[11.6,12.3,12.8,12.8,12.9,12.7,12.3,12.0,15.4,12.6,11.3,11.0,10.1,10.1,8.3,7.7,7.6,7.0,7.5],borderColor:"#3FB950",backgroundColor:"rgba(63,185,80,0.05)",fill:true},{label:"Female",data:[33.7,34.5,31.0,30.8,32.5,32.0,31.7,30.4,30.2,24.4,22.3,21.2,20.5,19.3,16.2,14.6,14.0,12.9,12.1],borderColor:"#BC8CFF",fill:false}],tg:7.0,tp:"line"},
   workforce:{t:"Female Workforce Participation (%)",s:"Quarterly · GASTAT · Target: 30%",lb:["Q2'16","Q4'16","Q2'17","Q4'17","Q2'18","Q4'18","Q2'19","Q4'19","Q2'20","Q4'20","Q2'21","Q4'21","Q2'22","Q4'22","Q2'23","Q4'23","Q2'24","Q4'24","Q3'25"],ds:[{label:"Participation",data:[17.7,17.4,20.2,19.4,19.6,20.2,21.2,26.0,25.4,29.3,30.6,33.5,31.3,33.6,33.8,35.0,35.8,36.0,33.7],borderColor:"#BC8CFF",backgroundColor:"rgba(188,140,255,0.05)",fill:true}],tg:30.0,tp:"line"},
@@ -284,34 +215,29 @@ var CD={
   tourism:{t:"International Tourist Arrivals (Millions)",s:"Saudi Ministry of Tourism · 2030 target: 70M",lb:["2016","2017","2018","2019","2020","2021","2022","2023","2024"],ds:[{label:"Arrivals",data:[18.0,16.1,15.3,20.2,3.5,3.5,16.4,27.4,29.7],backgroundColor:["#58A6FF","#58A6FF","#58A6FF","#3FB950","#F85149","#F85149","#D29922","#3FB950","#3FB950"],borderRadius:6}],tg:null,tp:"bar"},
   revenue:{t:"Government Revenue — Oil vs Non-Oil (SAR B)",s:"Annual · GASTAT",lb:["2016","2017","2018","2019","2020","2021","2022","2023","2024"],ds:[{label:"Oil",data:[329,436,611,594,413,562,856,681,624],backgroundColor:"rgba(248,81,73,0.6)",borderRadius:4},{label:"Non-Oil",data:[199,220,283,305,269,336,436,457,476],backgroundColor:"rgba(63,185,80,0.6)",borderRadius:4}],tg:null,tp:"bar"}
 };
-
-/* ═══════════════ HELPERS ═══════════════ */
 var cP='all',cS='all';
-var sortCol=null,sortDir=1; /* 1=asc, -1=desc */
-
+var sortCol=null,sortDir=1;
 function fmt(v,u){
   if(v===null)return'—';
   if(u==='$B')return'$'+v.toLocaleString()+'B';
   if(u==='M')return v>=1?v.toFixed(1)+'M':Math.round(v*1000).toLocaleString()+'K';
   if(u==='#')return'#'+v;
-  if(u==='CCPI')return'#'+v+'/67';
+  if(u==='EPI')return'#'+v+'/180';
   return v.toLocaleString()+'%';
 }
-
 function prog(k){
   if(!k.b||!k.a||!k.t)return null;
   if(k.d==='l')return Math.min(((k.b-k.a)/(k.b-k.t))*100,100);
   return Math.min(((k.a-k.b)/(k.t-k.b))*100,100);
 }
-
 function delta(k){
   if(!k.b||!k.a)return{txt:'—',cls:'flat'};
   if(k.d==='l'){var d=k.b-k.a;return{txt:'▼ '+d.toFixed(1)+'pp',cls:d>0?'up':'dn'}}
   var d=k.a-k.b;var pct=((d/k.b)*100).toFixed(0);
   if(k.u==='$B')return{txt:'▲ +'+pct+'%',cls:d>0?'up':'dn'};
+  if(k.u==='EPI'){var diff=k.a-k.b;return{txt:'▼ -'+Math.abs(diff)+' ranks',cls:'dn'}}
   return{txt:'▲ +'+d.toFixed(1)+'pp',cls:d>0?'up':'dn'};
 }
-
 function getF(){
   var q=document.getElementById('sq').value.toLowerCase();
   var list=D.filter(function(k){return(cP==='all'||k.p===cP)&&(cS==='all'||k.s===cS)&&(!q||k.n.toLowerCase().includes(q))});
@@ -330,7 +256,6 @@ function getF(){
   }
   return list;
 }
-
 function sortBy(col,thEl){
   if(sortCol===col){sortDir*=-1}else{sortCol=col;sortDir=1}
   document.querySelectorAll('thead th').forEach(function(th){th.classList.remove('sorted');var ar=th.querySelector('.sort-arrow');if(ar)ar.textContent='↕'});
@@ -339,8 +264,6 @@ function sortBy(col,thEl){
   if(ar)ar.textContent=sortDir===1?'↑':'↓';
   renderTable();
 }
-
-/* ═══════════════ EXEC CARDS ═══════════════ */
 function renderCards(){
   var f=getF();
   var ex=f.filter(function(k){return k.s==='Exceeded'}).length;
@@ -355,15 +278,10 @@ function renderCards(){
     {v:674,c:'c',l:'Initiatives Done',sub:'of 1,502 launched',trend:'up',tr:'85% complete',cls:'cyan'}
   ];
   document.getElementById('xcards').innerHTML=cards.map(function(c,i){
-    return '<div class="xcard '+c.cls+'" style="animation:fadeIn 0.3s '+(i*0.06)+'s both">'+
-      '<div class="xcard-top"><span class="xcard-label">'+c.l+'</span><span class="xcard-trend '+c.trend+'">'+c.tr+'</span></div>'+
-      '<div class="xcard-val '+c.c+'" data-c="'+c.v+'">0</div>'+
-      '<div class="xcard-sub">'+c.sub+'</div></div>';
+    return '<div class="xcard '+c.cls+'" style="animation:fadeIn 0.3s '+(i*0.06)+'s both"><div class="xcard-top"><span class="xcard-label">'+c.l+'</span><span class="xcard-trend '+c.trend+'">'+c.tr+'</span></div><div class="xcard-val '+c.c+'" data-c="'+c.v+'">0</div><div class="xcard-sub">'+c.sub+'</div></div>';
   }).join('');
   animAll();
 }
-
-/* ═══════════════ TABLE ═══════════════ */
 function renderTable(){
   var list=getF();
   document.getElementById('rowCount').textContent=list.length+' indicator'+(list.length!==1?'s':'');
@@ -372,23 +290,13 @@ function renderTable(){
     var fc=k.s==='Exceeded'?'':k.s==='On Track'?'amber':'red';
     var ac=k.s==='Behind'?'act bh':'act';
     var dl=delta(k);
-    return '<tr>'+
-      '<td><span class="nm">'+k.n+'</span><span class="ptag">'+k.p+'</span></td>'+
-      '<td class="v r">'+fmt(k.b,k.u)+'</td>'+
-      '<td class="r"><span class="v '+ac+'">'+fmt(k.a,k.u)+'</span> <span class="delta '+dl.cls+'">'+dl.txt+'</span></td>'+
-      '<td class="v tgt r">'+fmt(k.t,k.u)+'</td>'+
-      '<td>'+(p!==null?'<div class="pbar"><div class="pbar-track"><div class="pbar-fill '+fc+'" style="width:0" data-w="'+p+'"></div></div><span class="pbar-pct">'+Math.round(p)+'%</span></div>':'<span style="color:var(--t3)">—</span>')+'</td>'+
-      '<td class="c"><span class="st '+sc+'"><span class="st-dot"></span>'+k.s+'</span></td></tr>';
+    return '<tr><td><span class="nm">'+k.n+'</span><span class="ptag">'+k.p+'</span></td><td class="v r">'+fmt(k.b,k.u)+'</td><td class="r"><span class="v '+ac+'">'+fmt(k.a,k.u)+'</span> <span class="delta '+dl.cls+'">'+dl.txt+'</span></td><td class="v tgt r">'+fmt(k.t,k.u)+'</td><td>'+(p!==null?'<div class="pbar"><div class="pbar-track"><div class="pbar-fill '+fc+'" style="width:0" data-w="'+p+'"></div></div><span class="pbar-pct">'+Math.round(p)+'%</span></div>':'<span style="color:var(--t3)">—</span>')+'</td><td class="c"><span class="st '+sc+'"><span class="st-dot"></span>'+k.s+'</span></td></tr>';
   }).join('');
   setTimeout(function(){document.querySelectorAll('.pbar-fill').forEach(function(e){e.style.width=e.dataset.w+'%'})},80);
 }
-
-/* ═══════════════ SLICERS ═══════════════ */
 function fP(v,b){cP=v;document.querySelectorAll('#spillar .pill').forEach(function(x){x.classList.remove('on')});b.classList.add('on');apply()}
 function fS(v,b){cS=v;document.querySelectorAll('#sstatus .pill').forEach(function(x){x.classList.remove('on')});b.classList.add('on');apply()}
 function apply(){renderTable();renderCards()}
-
-/* ═══════════════ CHARTS ═══════════════ */
 var chL=null,chR=null;
 function mkC(id,key){
   var d=CD[key],ctx=document.getElementById(id).getContext('2d');
@@ -410,11 +318,7 @@ function mkC(id,key){
 }
 function sL(k,b){document.querySelectorAll('#tL .cht').forEach(function(x){x.classList.remove('on')});b.classList.add('on');mkC('cL',k)}
 function sR(k,b){document.querySelectorAll('#tR .cht').forEach(function(x){x.classList.remove('on')});b.classList.add('on');mkC('cR',k)}
-
-/* ═══════════════ COUNTERS ═══════════════ */
 function animAll(){document.querySelectorAll('[data-c]').forEach(function(el){var t=parseInt(el.dataset.c),dur=1000,st=performance.now();(function f(now){var p=Math.min((now-st)/dur,1);var e=1-Math.pow(1-p,4);el.textContent=Math.round(e*t);if(p<1)requestAnimationFrame(f)})(st)})}
-
-/* ═══════════════ INIT ═══════════════ */
 document.addEventListener('DOMContentLoaded',function(){renderCards();renderTable();mkC('cL','unemployment');mkC('cR','pif')});
 </script>
 </body>
