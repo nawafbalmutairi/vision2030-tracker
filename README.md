@@ -17,16 +17,17 @@ This project collects, cleans, and visualizes the latest data from the 2024 Annu
 - **8 out of 11 KPIs exceeded their targets** — including unemployment (hit 2030 target 6 years early) and female workforce participation (33.5% vs 30% target)
 - **PIF assets grew 501%** from $152B to $913B since 2016
 - **Non-oil exports lag significantly** at 25.2% of non-oil GDP against a 50% target
-- **Environmental performance remains the weakest indicator** — Saudi Arabia ranked last (67/67) on the Climate Change Performance Index
+- **Environmental performance remains the weakest indicator** — Saudi Arabia dropped from #95 to #108 on the Yale EPI, against a target of #70
 
 ---
 
 ## Dashboard Features
 
-- **Real-time filtering** by pillar (Economy / Society / Governance)
+- **Real-time filtering** by pillar (Economy / Society / Governance) and status (Exceeded / On Track / Behind)
+- **Sortable KPI table** — click any column header to sort
+- **Search filter** for KPI names
 - **Dual chart panels** with 6 switchable trend visualizations (Unemployment, Female Workforce, GDP, Oil vs Non-Oil Revenue, PIF Assets, Tourism)
-- **Live ticker** with key stat changes since 2016
-- **Animated counters** and progress bars on load
+- **Animated counters** and gradient progress bars
 - **Fully responsive** — works on desktop, tablet, and mobile
 - **Single HTML file** — no build step, no dependencies beyond a CDN-loaded Chart.js
 
@@ -42,7 +43,7 @@ This project collects, cleans, and visualizes the latest data from the 2024 Annu
 | Saudi Ministry of Tourism | International tourist arrivals (yearly) | [sta.gov.sa](https://www.sta.gov.sa/en/open-data) |
 | Housing Program Report 2024 | Homeownership rate (yearly) | [momah.gov.sa](https://momah.gov.sa) |
 | Saudi Open Data Portal | Supplementary CSV datasets | [open.data.gov.sa](https://open.data.gov.sa) |
-| Climate Change Performance Index | Environmental ranking | [ccpi.org](https://ccpi.org/country/sau/) |
+| Yale Environmental Performance Index | Environmental ranking | [epi.yale.edu](https://epi.yale.edu/country/2024/SAU) |
 
 ---
 
@@ -95,7 +96,7 @@ vision2030-tracker/
 No build step needed. Just clone and open:
 
 ```bash
-git clone https://github.com/yourusername/vision2030-tracker.git
+git clone https://github.com/nawafbalmutairi/vision2030-tracker.git
 cd vision2030-tracker
 open index.html
 ```
@@ -118,18 +119,18 @@ Or simply download `index.html` and open it in any browser.
 | E-Government Rank | #36 | #6 | Top 5 (2030) | ✅ Exceeded |
 | E-Participation Rank | #39 | #7 | Top 10 (2030) | ✅ Exceeded |
 | Non-Oil Exports % GDP | 16% | 25.2% | 50% (2030) | 🔴 Behind |
-| Environmental Index | #67/67 | #67/67 | — | 🔴 Behind |
+| Environmental Performance (EPI) | #95 | #108 | #70 (2030) | 🔴 Behind |
 
 ---
 
 ## Author
 
 **Nawaf Badr Almutairi**
-BSc Computer Science — Northumbria University
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/nawaf-almutairi-907766290/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-nawafbalmutairi.github.io-000?style=flat&logo=github)](https://nawafbalmutairi.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/nawaf-almutairi-907766290/)
 [![GitHub](https://img.shields.io/badge/GitHub-nawafbalmutairi-000?style=flat&logo=github)](https://github.com/nawafbalmutairi)
+
 ---
 
 ## License
